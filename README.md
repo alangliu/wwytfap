@@ -1,2 +1,2 @@
-# wwydfap
-What Would You Do For A Pancake?
+# wwytfap
+What Would You Trade For A Pancake?
