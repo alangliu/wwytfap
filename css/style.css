@@ -24,28 +24,40 @@ body {
 }
 
 .top {
-  position: absolute;
+  /*position: absolute;*/
   font-weight: 800;
   font-style: "Open Sans";
   color: #dc9c27;
   font-size: 75px;
   text-align: center;
-  left: 15%;
-  right: 15%;
+  left: 20%;
+  right: 20%;
   top: 30%;
+  padding-top: 200px;
+  margin: auto;
+
+  width: 90%;
+
+  /*border: 2px solid red;*/
 }
 
 .scroll {  
-  position: absolute;
+  /*position: absolute;*/
   font-weight: 400;
   font-style: italic;
   font-style: "Open Sans";
-  font-size: 21px;
+  font-size: 17px;
   color: #828282;
   text-align: center;
   left: 15%;
   right: 15%;
-  top: 65%;
+
+  padding-top: 10%;
+  width: 275px;
+  /*top: 65%;*/
+
+  /*border: 2px solid red;*/
+  margin: auto;
 }
 
 .links {
@@ -60,6 +72,20 @@ body {
   float: right;
   margin-right: -75%;
   padding-bottom: 3px;
+}
+
+.arrow {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10%;
+  /*border: 2px solid red;*/
+
+}
+
+.arrow img {
+  margin: auto;
+  width: 40px;
 }
 
 .links a:hover {
@@ -134,11 +160,17 @@ body {
   font-weight: 700;
   font-size: 32px;
   position: absolute;
+
+  padding-top: 100px;
+
   text-align: center;
   width: 40%;
   float: right;
   left: 50%;
-  top: 40%;
+  top: 15%;
+
+
+  /*border: 2px solid red;*/
 }
 
 .modal-title {
@@ -151,8 +183,14 @@ body {
   width: 40%;
   float: right;
   left: 50%;
-  top: 55%;
+  top: 60%;
   color: #8C8C8C;
+
+  padding-top: 20px;
+  margin-bottom: 20px;
+
+  margin: auto;  
+  /*border: 2px solid red;*/
 }
 
 .modal-image {

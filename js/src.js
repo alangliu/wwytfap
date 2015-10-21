@@ -410,3 +410,8 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-image').prepend('<img class="item-image" src=\"' + url + '\" />')
 })
 
+$('#exampleModal').on('hidden.bs.modal', function (e) {
+  var modal = $(this);
+  modal.find('.modal-image').empty();
+});
+
