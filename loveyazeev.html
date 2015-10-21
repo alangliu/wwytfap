@@ -5,6 +5,19 @@
 	 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>WWYTFAP</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 	</head>
 	<body>
 
@@ -18,18 +31,28 @@
 			</div>
 		</div>
 
+	<!-- Large modal -->
+
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      ...
+		    </div>
+		  </div>
+		</div>
+
 	<!--Grid-->
 		<div id="wrapper">
 			<div class="box">
 				<div class="boxInner">
 					<img class="pancake" src="Pancake.png" />
-					<a href="#" class="listAttractions" id="x"><img class="object" src="Leaf.png" /></a>
+					<a href="#" data-toggle="modal" data-target=".bs-example-modal-lg"><img class="object" src="Leaf.png" /></a>
 				</div>
 			</div>
 			<div class="box">
 				<div class="boxInner">
 					<img class="pancake" src="Pancake.png" />
-					<a href="#" class= "listAttractions" id="y"><img class="object" src="Leaf.png" /></a>
+					<a href="#" data-toggle="modal" data-target=".bs-example-modal-lg"><img class="object" src="Leaf.png" /></a>
 				</div>
 			</div>
 			<div class="box">

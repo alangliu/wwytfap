@@ -96,6 +96,10 @@ body {
 	display: none;
 }
 
+.modal-dialog modal-lg {
+  
+}
+
 
 @media only screen and (max-width : 480px) {
       /* Smartphone view: 1 tile */
