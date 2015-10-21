@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("pancake_stack.png");
+    background-repeat: repeat;
+}
+.spimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+</style>
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+<center><h1>Pancakes Processing...</h1></center>
+<img class="spimage" src="pancake.jpg">
+</body>
+</html>

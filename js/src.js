@@ -25,5 +25,13 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 
     // Get the modal and put in the information for this image
     var modal = $(this);
-    modal.find('.modal-title').text('Name is ' + info.name);
+    modal.find('.modal-title').text(info.name);
+
+    var modal = $(this);
+    modal.find('.modal-item').text(info.item);
+
+    var modal = $(this);
+    modal.find('.modal-image').image(info.url);
+
 })
+

@@ -115,6 +115,9 @@ body {
   height: 400px;
 }
 
+.modal-title {
+  text-align: center;
+}
 
 
 @media only screen and (max-width : 480px) {
