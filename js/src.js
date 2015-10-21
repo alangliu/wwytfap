@@ -12,8 +12,7 @@ var trade = [
 ]
 
 $(".boxInner").click(function() {
-    $('.bs-example-modal-sm').modal({});
-
+    $('.bs-example-modal-lg').modal({});
 });
 
 $('#exampleModal').on('show.bs.modal', function (event) {
