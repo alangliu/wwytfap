@@ -34,7 +34,7 @@ body {
 
 .links {
   float: right;
-  width: 200px;
+  width: 20%;
   height: 80px;
   margin-top: 100px;
 }
@@ -96,9 +96,26 @@ body {
 	display: none;
 }
 
-.modal-dialog modal-lg {
-  
+/* Modal */
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  margin-top: -200px; /* half of #content height*/
+  left: 0;
+  width: 100%;
 }
+
+.modal-dialog {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}  
+
+.modal-content {
+  height: 400px;
+}
+
 
 
 @media only screen and (max-width : 480px) {
