@@ -12,6 +12,17 @@ body {
 }
 
 
+.logo img{
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+
+.logo{
+  text-align: center;
+}
+
 /* ABOUT PAGE */
 
 .about {
@@ -190,6 +201,27 @@ h5 {
 }
 
 
+.about-tweet {
+  width: 100vw;
+  /*height: 50vh;*/
+  /*background-color: #e4b249;*/
+  display: inline-block;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+  /*text-align: center;*/
+}
+
+.twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
 
 
 /* Navigation */
@@ -235,6 +267,19 @@ h5 {
   width: 90%;
 
   /*border: 2px solid red;*/
+}
+
+
+/*MAKE THE TYPE BETTER ON MOBILE*/
+@media only screen and (max-width : 480px) {
+  .top{
+    font-size: 38px;
+  }
+    
+  .links a{
+    margin-right: 0px;
+  }
+
 }
 
 .scroll {  
@@ -428,15 +473,40 @@ blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
 
-
-
 @media only screen and (max-width : 480px) {
       /* Smartphone view: 1 tile */
       .box {
         width: 100%;
         padding-bottom: 100%;
       }
-    }
+      
+}
+
+
+@media only screen and (max-width : 480px) {
+
+      .about-type{
+        padding-top: 48vh;
+      }
+
+      .back-button a {
+        font-size: 20px;
+      }
+
+      #card1{
+        height: 250px;
+        width: auto;
+        margin-top: 91px;
+      z-index: 1;
+      margin-left: 30vw;
+      right: 200px;
+      -ms-transform: rotate(29deg);
+      -webkit-transform: rotate(29deg);
+      transform: rotate(29deg);
+      }
+
+}
+
    
 @media only screen and (max-width : 650px) and (min-width : 481px) {
       /* Tablet view: 2 tiles */
