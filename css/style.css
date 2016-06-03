@@ -41,6 +41,8 @@ right: 0;
   -o-background-size: cover;
   background-size: cover;
 
+  background-attachment:scroll;
+
 }
 
 .contents{
@@ -198,6 +200,8 @@ h5 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  background-attachment:scroll;
 }
 
 
