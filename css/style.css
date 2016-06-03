@@ -479,11 +479,42 @@ blockquote.twitter-tweet a:focus {
         width: 100%;
         padding-bottom: 100%;
       }
-      
-}
+      .modal-image{
+        float: none; 
+        width: 100%;
+      }
 
+      .modal-item{
+        font-weight: 700;
+    font-size: 23px;
+    position: absolute;
+    padding-top: 259px;
+    text-align: left;
+    width: 80%;
+    float: left;
+    left: 20px;
+    top: 15%;
+      }
 
-@media only screen and (max-width : 480px) {
+      .modal-title{
+            font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    position: absolute;
+    text-align: left;
+    width: 40%;
+    float: left;
+    left: 22px;
+    top: 276px;
+    color: #8C8C8C;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+      }
+
+      .modal-dialog{
+        width: 75%;
+      }
 
       .about-type{
         padding-top: 48vh;
